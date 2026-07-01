@@ -1,0 +1,80 @@
+{
+  "jasper": {
+    "name": "Jasper",
+    "blurb": "AI writing assistant built for marketing teams and content at scale.",
+    "affiliate_url": "https://REPLACE-WITH-YOUR-JASPER-AFFILIATE-LINK",
+    "program_note": "Apply at Jasper's official partner program page. Verify current commission terms before publishing."
+  },
+  "copyai": {
+    "name": "Copy.ai",
+    "blurb": "AI copywriting tool geared toward short-form marketing and sales copy.",
+    "affiliate_url": "https://REPLACE-WITH-YOUR-COPYAI-AFFILIATE-LINK",
+    "program_note": "Apply via Copy.ai's affiliate/partner page. Verify current commission terms."
+  },
+  "grammarly": {
+    "name": "Grammarly",
+    "blurb": "Writing assistant for grammar, tone, and clarity, with a generous free tier.",
+    "affiliate_url": "https://REPLACE-WITH-YOUR-GRAMMARLY-AFFILIATE-LINK",
+    "program_note": "Grammarly runs its affiliate program through a network (historically Impact/Partnerize). Apply and verify current payout structure."
+  },
+  "clickup": {
+    "name": "ClickUp",
+    "blurb": "All-in-one project management and productivity workspace with AI features.",
+    "affiliate_url": "https://REPLACE-WITH-YOUR-CLICKUP-AFFILIATE-LINK",
+    "program_note": "Apply via ClickUp's official affiliate page. Verify current terms."
+  },
+  "notion": {
+    "name": "Notion",
+    "blurb": "Flexible workspace for notes, docs, and project tracking with a built-in AI assistant.",
+    "affiliate_url": "https://REPLACE-WITH-YOUR-NOTION-AFFILIATE-LINK",
+    "program_note": "Apply via Notion's official affiliate/referral program page. Verify current terms."
+  },
+  "asana": {
+    "name": "Asana",
+    "blurb": "Task and project management tool for small-to-large teams.",
+    "affiliate_url": "https://REPLACE-WITH-YOUR-ASANA-AFFILIATE-LINK",
+    "program_note": "Check whether Asana currently runs a public affiliate program before including it live."
+  },
+  "surferseo": {
+    "name": "Surfer SEO",
+    "blurb": "Content optimization tool that scores drafts against top-ranking pages.",
+    "affiliate_url": "https://REPLACE-WITH-YOUR-SURFERSEO-AFFILIATE-LINK",
+    "program_note": "Apply via Surfer's official affiliate page. Verify current commission rate."
+  },
+  "semrush": {
+    "name": "Semrush",
+    "blurb": "SEO and competitive research suite used widely by content and marketing teams.",
+    "affiliate_url": "https://REPLACE-WITH-YOUR-SEMRUSH-AFFILIATE-LINK",
+    "program_note": "Semrush's affiliate program (historically branded BeRush) is well-established. Apply and verify current terms."
+  },
+  "ahrefs": {
+    "name": "Ahrefs",
+    "blurb": "SEO toolset for backlink analysis, keyword research, and site audits.",
+    "affiliate_url": "https://REPLACE-WITH-YOUR-AHREFS-AFFILIATE-LINK",
+    "program_note": "Check current affiliate program availability and terms directly with Ahrefs."
+  },
+  "synthesia": {
+    "name": "Synthesia",
+    "blurb": "AI video generation platform using synthetic avatars and voiceover.",
+    "affiliate_url": "https://REPLACE-WITH-YOUR-SYNTHESIA-AFFILIATE-LINK",
+    "program_note": "Apply via Synthesia's official partner program. Verify current terms."
+  },
+  "descript": {
+    "name": "Descript",
+    "blurb": "Audio/video editing tool with AI transcription and script-based editing.",
+    "affiliate_url": "https://REPLACE-WITH-YOUR-DESCRIPT-AFFILIATE-LINK",
+    "program_note": "Apply via Descript's affiliate page. Verify current terms."
+  },
+  "pictory": {
+    "name": "Pictory",
+    "blurb": "Turns long-form text or video into short, shareable video clips using AI.",
+    "affiliate_url": "https://REPLACE-WITH-YOUR-PICTORY-AFFILIATE-LINK",
+    "program_note": "Apply via Pictory's affiliate program. Verify current terms."
+  },
+  "canva": {
+    "name": "Canva",
+    "blurb": "Design tool with AI-assisted templates for graphics, docs, and presentations.",
+    "affiliate_url": "https://REPLACE-WITH-YOUR-CANVA-AFFILIATE-LINK",
+    "program_note": "Apply via Canva's official affiliate program (runs through Partnerize/Impact historically). Verify current terms."
+  }
+}

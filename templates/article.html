@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="post">
+  <h1>{{ title }}</h1>
+  <p class="meta">Updated {{ date }}</p>
+  <p class="disclosure-inline">Disclosure: this article may contain affiliate links. If you buy through them we may earn a commission at no extra cost to you. See our <a href="{{ root }}disclosure.html">full disclosure</a>.</p>
+  <div class="body">
+  {{ body|safe }}
+  </div>
+
+  {% if tools %}
+  <aside class="tool-cards">
+    <h2>Tools mentioned in this article</h2>
+    {% for tool in tools %}
+    <div class="tool-card">
+      <h3>{{ tool.name }}</h3>
+      <p>{{ tool.blurb }}</p>
+      <a class="cta" href="{{ tool.affiliate_url }}" rel="sponsored noopener" target="_blank">Check out {{ tool.name }} &rarr;</a>
+    </div>
+    {% endfor %}
+  </aside>
+  {% endif %}
+</article>
+{% endblock %}

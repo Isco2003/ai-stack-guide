@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <h1>{{ site_name }}</h1>
+  <p>{{ site_tagline }}</p>
+</section>
+<section class="post-list">
+  {% for a in articles %}
+  <a class="post-card" href="{{ root }}{{ a.slug }}.html">
+    <h2>{{ a.title }}</h2>
+    <p>{{ a.description }}</p>
+    <span class="date">{{ a.date }}</span>
+  </a>
+  {% endfor %}
+</section>
+{% endblock %}

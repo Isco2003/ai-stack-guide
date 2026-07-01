@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ page_description }}">
+<link rel="canonical" href="{{ site_url }}{{ canonical_path }}">
+<link rel="stylesheet" href="{{ root }}static/css/style.css">
+<link rel="alternate" type="application/rss+xml" title="{{ site_name }} RSS" href="{{ root }}rss.xml">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="{{ root }}index.html">{{ site_name }}</a>
+  <nav>
+    <a href="{{ root }}index.html">Home</a>
+    <a href="{{ root }}about.html">About</a>
+    <a href="{{ root }}disclosure.html">Disclosure</a>
+  </nav>
+</header>
+<main>
+{% block content %}{% endblock %}
+</main>
+<footer class="site-footer">
+  <p>&copy; {{ year }} {{ site_name }}. Some links on this site are affiliate links; see our <a href="{{ root }}disclosure.html">disclosure</a>.</p>
+  <p><a href="{{ root }}privacy.html">Privacy Policy</a></p>
+</footer>
+</body>
+</html>
